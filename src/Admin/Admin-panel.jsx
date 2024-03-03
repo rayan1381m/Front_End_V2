@@ -5,6 +5,7 @@ const Admin = () => {
   return (
     <div className="admin-container">
       <div className="sidebar-container"><SideBar/></div>
+      <div className="body-container"></div>
     </div>
   );
 };

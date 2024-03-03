@@ -1,6 +1,6 @@
 import "./Sidebar.css"
 
-function SideBar() {
+function SideBarAdmin() {
     return (
       <div className="container">
         <button className="login-btn">Add Game</button>
@@ -10,10 +10,11 @@ function SideBar() {
         <button className="login-btn">Delete User</button>
         <button className="login-btn">Edit Game</button>
         <button className="login-btn">Edit User</button>
+        <button className="logout">Log Out</button>
       </div>
     );
   }
   
-  export default SideBar;
+  export default SideBarAdmin;
   
   
