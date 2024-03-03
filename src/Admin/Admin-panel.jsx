@@ -1,9 +1,10 @@
 import React from "react";
+import SideBar from "../components/Sidebar";
 
 const Admin = () => {
   return (
-    <div>
-      <h2>Welcome to Admin Dashboard</h2>
+    <div className="admin-container">
+      <SideBar/>
     </div>
   );
 };
